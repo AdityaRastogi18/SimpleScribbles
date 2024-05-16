@@ -11,6 +11,7 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "search-icon": "url('/src/app/search-icon.png')"
       },
       colors: {
         "regal-black": "#090D1F"

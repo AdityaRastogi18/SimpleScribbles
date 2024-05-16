@@ -1,83 +1,92 @@
 [
-    {
-      "author": "Aditya Rastogi",
-      "date": "2024-05-15",
-      "title": "Understanding React Component Lifecycle",
-      "tags": ["ReactJS", "JavaScript", "Frontend Development"],
-      "media": "https://miro.medium.com/v2/resize:fit:940/1*WCuMD41cUWh9K9auQXnv6A.png",
-      "content": "In React, components have a lifecycle that goes through various phases. Understanding this lifecycle is crucial for building robust and efficient React applications. This blog post dives deep into each phase of the React component lifecycle, from mounting to unmounting, and provides insights into best practices and common pitfalls."
-    },
-    {
-      "author": "Aditya Rastogi",
-      "date": "2024-05-16",
-      "title": "Getting Started with Next.js",
-      "tags": ["Next.js", "ReactJS", "JavaScript"],
-      "media": "",
-      "content": "Next.js is a powerful framework for building React applications with ease. In this blog post, we'll walk through the basics of Next.js, including setup, routing, data fetching, and deployment. By the end of this post, you'll have a solid understanding of how to leverage Next.js to build modern web applications."
-    },
-    {
-      "author": "Aditya Rastogi",
-      "date": "2024-05-17",
-      "title": "10 Tips for Effective JavaScript Development",
-      "tags": ["JavaScript", "Programming", "Best Practices"],
-      "media": "",
-      "content": "JavaScript is a versatile language that powers the web. However, writing maintainable and efficient JavaScript code can be challenging. In this blog post, we'll share 10 tips for effective JavaScript development, covering topics such as variable naming, error handling, and performance optimization. Whether you're a beginner or an experienced developer, these tips will help you write better JavaScript code."
-    },
-    {
-      "author": "Aditya Rastogi",
-      "date": "2024-05-18",
-      "title": "Optimizing React Applications for Performance",
-      "tags": ["ReactJS", "Performance Optimization", "Frontend Development"],
-      "media": "",
-      "content": "Performance is a critical aspect of web development, and React developers need to pay attention to optimizing their applications for speed and efficiency. In this blog post, we'll explore various techniques and best practices for optimizing React applications, including code splitting, memoization, and minimizing re-renders. By implementing these optimizations, you can ensure that your React apps deliver a snappy user experience."
-    },
-    {
-      "author": "Aditya Rastogi",
-      "date": "2024-05-19",
-      "title": "Server-side Rendering with Next.js",
-      "tags": ["Next.js", "ReactJS", "Server-side Rendering"],
-      "media": "",
-      "content": "Server-side rendering is a powerful technique for improving the performance and SEO of web applications. Next.js makes server-side rendering easy with its built-in support. In this blog post, we'll explore how to implement server-side rendering with Next.js, including data fetching, dynamic routing, and caching strategies. By leveraging server-side rendering, you can create fast-loading and search engine-friendly React applications."
-    },
-    {
-      "author": "Aditya Rastogi",
-      "date": "2024-05-20",
-      "title": "Managing State in React Applications",
-      "tags": ["ReactJS", "State Management", "Frontend Development"],
-      "media": "",
-      "content": "State management is a fundamental aspect of building React applications. In this blog post, we'll discuss various state management techniques in React, including local state, context API, and third-party libraries like Redux and MobX. We'll compare their pros and cons and provide guidance on choosing the right state management approach for your project. By mastering state management, you can build scalable and maintainable React applications."
-    },
-    {
-      "author": "Aditya Rastogi",
-      "date": "2024-05-21",
-      "title": "Testing React Components with Jest and Enzyme",
-      "tags": ["ReactJS", "Testing", "Jest", "Enzyme"],
-      "media": "",
-      "content": "Testing is an essential part of the software development process, and React applications are no exception. In this blog post, we'll explore how to write unit tests for React components using Jest and Enzyme. We'll cover topics such as snapshot testing, mocking dependencies, and testing user interactions. By following best practices for testing React components, you can ensure the reliability and maintainability of your codebase."
-    },
-    {
-      "author": "Aditya Rastogi",
-      "date": "2024-05-22",
-      "title": "Building Dynamic Routes with Next.js",
-      "tags": ["Next.js", "ReactJS", "Routing"],
-      "media": "",
-      "content": "Dynamic routing allows you to create flexible and powerful navigation systems in your web applications. Next.js provides excellent support for dynamic routes out of the box. In this blog post, we'll explore how to create dynamic routes with Next.js, including parameterized routes, nested routes, and catch-all routes. By harnessing the power of dynamic routing, you can build highly interactive and user-friendly React applications."
-    },
-    {
-      "author": "Aditya Rastogi",
-      "date": "2024-05-23",
-      "title": "Optimizing JavaScript Code for Performance",
-      "tags": ["JavaScript", "Performance Optimization", "Programming"],
-      "media": "",
-      "content": "Writing efficient JavaScript code is crucial for delivering fast and responsive web applications. In this blog post, we'll discuss various techniques for optimizing JavaScript code for performance, including minimizing DOM manipulation, reducing memory consumption, and using asynchronous operations. By following these optimization strategies, you can ensure that your JavaScript code runs smoothly and efficiently in the browser."
-    },
-    {
-      "author": "Aditya Rastogi",
-      "date": "2024-05-24",
-      "title": "Securing React Applications with Authentication",
-      "tags": ["ReactJS", "Authentication", "Security"],
-      "media": "",
-      "content": "Security is a top priority when building web applications, especially those that handle sensitive user data. In this blog post, we'll explore how to implement authentication in React applications to secure access to protected resources. We'll cover techniques such as JSON Web Tokens (JWT), OAuth, and session-based authentication. By following best practices for authentication, you can protect your React apps from unauthorized access and data breaches."
-    }
-  ]
-  
+  {
+    "_id": "a1f0",
+    "author": "Aditya Rastogi",
+    "date": "2024-05-15",
+    "title": "Understanding React Component Lifecycle",
+    "tags": ["ReactJS", "JavaScript", "Frontend Development"],
+    "media": "https://miro.medium.com/v2/resize:fit:940/1*WCuMD41cUWh9K9auQXnv6A.png",
+    "content": "In React, components have a lifecycle that goes through various phases. Understanding this lifecycle is crucial for building robust and efficient React applications. This blog post dives deep into each phase of the React component lifecycle, from mounting to unmounting, and provides insights into best practices and common pitfalls."
+  },
+  {
+    "_id": "b2d8",
+    "author": "Aditya Rastogi",
+    "date": "2024-05-16",
+    "title": "Getting Started with Next.js",
+    "tags": ["Next.js", "ReactJS", "JavaScript"],
+    "media": "https://www.felixvemmer.com/posts/why-next-js/twitter-card.png",
+    "content": "Next.js is a powerful framework for building React applications with ease. In this blog post, we'll walk through the basics of Next.js, including setup, routing, data fetching, and deployment. By the end of this post, you'll have a solid understanding of how to leverage Next.js to build modern web applications."
+  },
+  {
+    "_id": "e0c7",
+    "author": "Aditya Rastogi",
+    "date": "2024-05-17",
+    "title": "10 Tips for Effective JavaScript Development",
+    "tags": ["JavaScript", "Programming", "Best Practices"],
+    "media": "https://www.syncfusion.com/blogs/wp-content/uploads/2023/08/Debugging-Like-a-Pro-10-Tips-for-Effective-JavaScript-Troubleshooting.png",
+    "content": "JavaScript is a versatile language that powers the web. However, writing maintainable and efficient JavaScript code can be challenging. In this blog post, we'll share 10 tips for effective JavaScript development, covering topics such as variable naming, error handling, and performance optimization. Whether you're a beginner or an experienced developer, these tips will help you write better JavaScript code."
+  },
+  {
+    "_id": "1a2b",
+    "author": "Aditya Rastogi",
+    "date": "2024-05-18",
+    "title": "Optimizing React Applications for Performance",
+    "tags": ["ReactJS", "Performance Optimization", "Frontend Development"],
+    "media": "https://media.licdn.com/dms/image/D4D12AQHl5a7Jjxxldg/article-cover_image-shrink_720_1280/0/1690253387934?e=2147483647&v=beta&t=tbhIy28fZgGlNLWHjK8YPwnNeGaH-91lEkg5dYdi_fY",
+    "content": "Performance is a critical aspect of web development, and React developers need to pay attention to optimizing their applications for speed and efficiency. In this blog post, we'll explore various techniques and best practices for optimizing React applications, including code splitting, memoization, and minimizing re-renders. By implementing these optimizations, you can ensure that your React apps deliver a snappy user experience."
+  },
+  {
+    "_id": "3c4d",
+    "author": "Aditya Rastogi",
+    "date": "2024-05-19",
+    "title": "Server-side Rendering with Next.js",
+    "tags": ["Next.js", "ReactJS", "Server-side Rendering"],
+    "media": "https://miro.medium.com/v2/resize:fit:1400/1*DAYAXfvihnKIGUuM1xM4Hw.png",
+    "content": "Server-side rendering is a powerful technique for improving the performance and SEO of web applications. Next.js makes server-side rendering easy with its built-in support. In this blog post, we'll explore how to implement server-side rendering with Next.js, including data fetching, dynamic routing, and caching strategies. By leveraging server-side rendering, you can create fast-loading and search engine-friendly React applications."
+  },
+  {
+    "_id": "5e6f",
+    "author": "Aditya Rastogi",
+    "date": "2024-05-20",
+    "title": "Managing State in React Applications",
+    "tags": ["ReactJS", "State Management", "Frontend Development"],
+    "media": "https://bs-uploads.toptal.io/blackfish-uploads/components/seo/5993037/og_image/optimized/image_5-b228bd4760b1e5e5a69ab124d1e5dc7d.png",
+    "content": "State management is a fundamental aspect of building React applications. In this blog post, we'll discuss various state management techniques in React, including local state, context API, and third-party libraries like Redux and MobX. We'll compare their pros and cons and provide guidance on choosing the right state management approach for your project. By mastering state management, you can build scalable and maintainable React applications."
+  },
+  {
+    "_id": "7g8h",
+    "author": "Aditya Rastogi",
+    "date": "2024-05-21",
+    "title": "Testing React Components with Jest and Enzyme",
+    "tags": ["ReactJS", "Testing", "Jest", "Enzyme"],
+    "media": "https://cdn.hashnode.com/res/hashnode/image/upload/v1601607422490/cUoe1KXgv.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+    "content": "Testing is an essential part of the software development process, and React applications are no exception. In this blog post, we'll explore how to write unit tests for React components using Jest and Enzyme. We'll cover topics such as snapshot testing, mocking dependencies, and testing user interactions. By following best practices for testing React components, you can ensure the reliability and maintainability of your codebase."
+  },
+  {
+    "_id": "9i0j",
+    "author": "Aditya Rastogi",
+    "date": "2024-05-22",
+    "title": "Building Dynamic Routes with Next.js",
+    "tags": ["Next.js", "ReactJS", "Routing"],
+    "media": "https://miro.medium.com/v2/resize:fit:1400/1*OSdSUtVeGdV34V4hl_4U7g.png",
+    "content": "Dynamic routing allows you to create flexible and powerful navigation systems in your web applications. Next.js provides excellent support for dynamic routes out of the box. In this blog post, we'll explore how to create dynamic routes with Next.js, including parameterized routes, nested routes, and catch-all routes. By harnessing the power of dynamic routing, you can build highly interactive and user-friendly React applications."
+  },
+  {
+    "_id": "ab12",
+    "author": "Aditya Rastogi",
+    "date": "2024-05-23",
+    "title": "Optimizing JavaScript Code for Performance",
+    "tags": ["JavaScript", "Performance Optimization", "Programming"],
+    "media": "https://www.appventurez.com/wp-content/uploads/2020/07/tips-for-improving-performance-with-javascript-1.png",
+    "content": "Writing efficient JavaScript code is crucial for delivering fast and responsive web applications. In this blog post, we'll discuss various techniques for optimizing JavaScript code for performance, including minimizing DOM manipulation, reducing memory consumption, and using asynchronous operations. By following these optimization strategies, you can ensure that your JavaScript code runs smoothly and efficiently in the browser."
+  },
+  {
+    "_id": "cd34",
+    "author": "Aditya Rastogi",
+    "date": "2024-05-24",
+    "title": "Securing React Applications with Authentication",
+    "tags": ["ReactJS", "Authentication", "Security"],
+    "media": "https://www.xavor.com/wp-content/uploads/2023/08/Securing-React-Applications-with-Best-Practices-for-Authentication-and-Authorization.webp",
+    "content": "Security is a top priority when building web applications, especially those that handle sensitive user data. In this blog post, we'll explore how to implement authentication in React applications to secure access to protected resources. We'll cover techniques such as JSON Web Tokens (JWT), OAuth, and session-based authentication. By following best practices for authentication, you can protect your React apps from unauthorized access and data breaches."
+  }
+]
