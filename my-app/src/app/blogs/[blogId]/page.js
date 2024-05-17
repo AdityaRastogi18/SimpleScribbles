@@ -26,7 +26,9 @@ const page = () => {
           {article.tags.map((tag, index) => (
             <div
               key={`${tag}-${index}`}
-              className={`rounded-full flex items-center text-center ${tagColorPicker(tag).bgColor} ${tagColorPicker(tag).fontColor} p-2`}
+              className={`rounded-full flex items-center text-center ${
+                tagColorPicker(tag).bgColor
+              } ${tagColorPicker(tag).fontColor} p-2`}
             >
               {tag}
             </div>

@@ -10,7 +10,7 @@ export default function Home() {
         THE BLOG
       </header>
       <section className="">
-        <h3 className="mt-4 mb-2  md:mb-6 text-lg md:mt-[2.5rem] md:text-[25px]">Recent Blog Posts</h3>
+        <h3 className="mt-4 mb-2 text-lg md:mt-[2.5rem] md:text-[25px]">Recent Blog Posts</h3>
         <RecentPosts {...data[0]} />        
       </section>
       <section className="">

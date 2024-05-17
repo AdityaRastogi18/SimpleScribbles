@@ -1,6 +1,6 @@
 export default function tagColorPicker(val) {
   switch (val) {
-    case "ReactJS":
+    case "React.js":
       return { fontColor: "text-[#3538CD]", bgColor: "bg-[#EEF4FF]" };
     case "JavaScript":
       return { fontColor: "text-[#9B9627]", bgColor: "bg-[#FDFDF4]" };

@@ -1,4 +1,4 @@
-import AllPosts from "../Components/AllPosts";
+import AllProjects from "../Components/AllProjects";
 
 const page = () => {
   return (
@@ -15,7 +15,7 @@ const page = () => {
           </select>
         </span>
       </section>
-      <AllPosts />
+      <AllProjects />
     </>
   );
 };

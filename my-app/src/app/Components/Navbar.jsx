@@ -34,7 +34,7 @@ const Navbar = () => {
             <Link href={"/blogs"}>Blog</Link>
           </li>
           <li className="hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer">
-            Projects
+            <Link href={"/projects"}>Projects</Link>
           </li>
           <li className="hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer">
             News
@@ -74,10 +74,14 @@ const Navbar = () => {
               About
             </li>
             <li className="hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer">
-              Blog
+              <Link href={"/blogs"} onClick={() => setToggle(!toggle)}>
+                Blog
+              </Link>
             </li>
             <li className="hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer">
-              Projects
+              <Link href={"/projects"} onClick={() => setToggle(!toggle)}>
+                Projects
+              </Link>
             </li>
             <li className="hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer">
               News

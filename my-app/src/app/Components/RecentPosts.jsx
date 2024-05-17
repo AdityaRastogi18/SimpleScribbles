@@ -11,7 +11,11 @@ const RecentPosts = () => {
         <div className="row-span-2 col-span-1">
           <HoverReadMore link={""}>
             <div className="flex xs:flex-col xl:flex-col gap-5 p-3 px-0">
-              <img src={data[0].media} alt={data[0].title} className="w-full h-auto" />
+              <img
+                src={data[0].media}
+                alt={data[0].title}
+                className="w-full h-auto"
+              />
               <div className="flex flex-col gap-6">
                 <p>{data[0].date}</p>
                 <h4>{data[0].title}</h4>
@@ -20,7 +24,9 @@ const RecentPosts = () => {
                   {data[0].tags.map((tag, index) => (
                     <div
                       key={`${tag}-${index}`}
-                      className={`rounded-full flex items-center text-center ${tagColorPicker(tag).bgColor} ${tagColorPicker(tag).fontColor} p-3 text-sm`}
+                      className={`rounded-full flex items-center text-center ${
+                        tagColorPicker(tag).bgColor
+                      } ${tagColorPicker(tag).fontColor} p-2 text-sm`}
                     >
                       {tag}
                     </div>
@@ -47,7 +53,9 @@ const RecentPosts = () => {
                   {data[1].tags.map((tag, index) => (
                     <div
                       key={`${tag}-${index}`}
-                      className={`rounded-full flex items-center text-center ${tagColorPicker(tag).bgColor} ${tagColorPicker(tag).fontColor} p-3 text-sm`}
+                      className={`rounded-full flex items-center text-center ${
+                        tagColorPicker(tag).bgColor
+                      } ${tagColorPicker(tag).fontColor} p-2 text-sm`}
                     >
                       {tag}
                     </div>
@@ -74,7 +82,9 @@ const RecentPosts = () => {
                   {data[2].tags.map((tag, index) => (
                     <div
                       key={`${tag}-${index}`}
-                      className={`rounded-full flex items-center text-center ${tagColorPicker(tag).bgColor} ${tagColorPicker(tag).fontColor} p-3 text-sm`}
+                      className={`rounded-full flex items-center text-center ${
+                        tagColorPicker(tag).bgColor
+                      } ${tagColorPicker(tag).fontColor} p-2 text-sm`}
                     >
                       {tag}
                     </div>
@@ -100,7 +110,9 @@ const RecentPosts = () => {
               {data[3].tags.map((tag, index) => (
                 <div
                   key={`${tag}-${index}`}
-                  className={`rounded-full flex items-center text-center ${tagColorPicker(tag).bgColor} ${tagColorPicker(tag).fontColor} p-3 text-sm`}
+                  className={`rounded-full flex items-center text-center ${
+                    tagColorPicker(tag).bgColor
+                  } ${tagColorPicker(tag).fontColor} p-2 text-sm`}
                 >
                   {tag}
                 </div>

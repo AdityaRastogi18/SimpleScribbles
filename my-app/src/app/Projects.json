@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Qkart",
+    "description": "Web-based platform that allows users to search, browse, and add products to cart from various providers, providing a convenient and efficient shopping experience.",
+    "tags": [
+        "React.js",
+        "Mongodb",
+        "Bootstrap"
+    ],
+    "media": "/images/Qkart.png",
+    "source_code_link": "https://github.com/AdityaRastogi18/Qkart-Frontend/tree/main/shubhrastogi14-ME_QKART_FRONTEND_V2-master",
+    "live_link": "",
+    "_id": "qkart"
+  },
+  {
+    "name": "Tic Tac Toe Game",
+    "description": "A web-based Tic Tac Toe game designed for simple, pass-and-play fun. Users can seamlessly take turns with friends, enjoying a classic game of strategy in a straightforward and accessible format.",
+    "tags": [
+      "HTML", "CSS", "Javascript"
+    ],
+    "media": "/images/tic-tac-toe.png",
+    "source_code_link": "https://github.com/AdityaRastogi18/Tic-tac-toe",
+    "live_link": "",
+    "_id": "tic-tac-toe"
+  },
+  {
+    "name": "3D Portfolio",
+    "description": "A web-based Tic Tac Toe game designed for simple, pass-and-play fun. Users can seamlessly take turns with friends, enjoying a classic game of strategy in a straightforward and accessible format.",
+    "tags": [
+      "React.js", "Three.js", "Tailwind CSS"
+    ],
+    "media": "/images/Portfolio.png",
+    "source_code_link": "https://github.com/AdityaRastogi18/Tic-tac-toe",
+    "live_link": "",
+    "_id": "portfolio"
+  }
+]
