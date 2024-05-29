@@ -20,7 +20,7 @@ const page = () => {
         <div className=" mb-4">
           <img src={project.media} className="h-[200px] md:h-[430px] w-full" alt="test" />
         </div>
-        <section className="overflow-x-auto">
+        <section className="overflow-x-scroll snap-x snap-mandatory">
           <div className="flex flex-row  gap-4 w-full min-w-[33%] snap-x snap-mandatory">
             {/* <div className="z-20 absolute flex justify-between items-center w-[45%]">
               <button className="" onClick={handleScrollLeft}>

@@ -18,7 +18,7 @@ const Navbar = () => {
       <nav
         className={`hidden md:flex flex-row justify-between items-center py-7 border-b-[2px] transition-all duration-500`}
       >
-        <Link href="/">Simple Scriblers</Link>
+        <Link href="/">Simple Scribbles</Link>
         <ul className="flex flex-row justify-evenly items-center gap-5">
           <li className="hover:cursor-pointer">
             <input
@@ -28,7 +28,7 @@ const Navbar = () => {
             />
           </li>
           <li className="hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer">
-            About
+            <Link href={"/about"}>About</Link>
           </li>
           <li className="hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer">
             <Link href={"/blogs"}>Blog</Link>
@@ -36,9 +36,9 @@ const Navbar = () => {
           <li className="hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer">
             <Link href={"/projects"}>Projects</Link>
           </li>
-          <li className="hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer">
+          {/* <li className="hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer">
             News
-          </li>
+          </li> */}
         </ul>
       </nav>
       <nav
@@ -46,7 +46,7 @@ const Navbar = () => {
           toggle ? "h-screen" : "h-0"
         }`}
       >
-        <Link href="/">Simple Scriblers</Link>
+        <Link href="/">Simple Scribbles</Link>
         <button onClick={() => setToggle(!toggle)} className="font-medium">
           <FontAwesomeIcon icon={faBars} />
         </button>
@@ -71,7 +71,9 @@ const Navbar = () => {
               )}
             </li>
             <li className="hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer">
-              About
+              <Link href={"/about"} onClick={() => setToggle(!toggle)}>
+                About
+              </Link>
             </li>
             <li className="hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer">
               <Link href={"/blogs"} onClick={() => setToggle(!toggle)}>
@@ -83,9 +85,9 @@ const Navbar = () => {
                 Projects
               </Link>
             </li>
-            <li className="hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer">
+            {/* <li className="hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer">
               News
-            </li>
+            </li> */}
             <li className="hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer">
               <button onClick={() => setToggle(!toggle)} className="text-3xl">
                 <FontAwesomeIcon icon={faCircleXmark} />

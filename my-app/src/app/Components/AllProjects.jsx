@@ -14,8 +14,8 @@ const AllProjects = () => {
               className="w-full h-auto md:h-[200px] object-cover"
             />
             <div className="flex flex-col gap-6">
-              <h4>{project.name}</h4>
-              <p className="line-clamp-3">{project.description}</p>
+              <h4 className="text-2xl lg:text-3xl font-semibold">{project.name}</h4>
+              <p className="line-clamp-3 lg:text-xl leading-6">{project.description}</p>
               <div className="flex flex-row gap-5">
                 {project.tags.map((tag, index) => (
                   <div

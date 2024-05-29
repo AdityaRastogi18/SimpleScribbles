@@ -9,7 +9,7 @@ const RecentPosts = () => {
     <>
       <div className="grid grid-rows-2 xl:grid-flow-col gap-5 mb-4">
         <div className="row-span-2 col-span-1">
-          <HoverReadMore link={""}>
+          <HoverReadMore link={`/blogs/${data[0]._id}`}>
             <div className="flex xs:flex-col xl:flex-col gap-5 p-3 px-0">
               <img
                 src={data[0].media}
@@ -37,7 +37,7 @@ const RecentPosts = () => {
           </HoverReadMore>
         </div>
         <div className="col-span-1 row-span-1">
-          <HoverReadMore link={""}>
+          <HoverReadMore link={`/blogs/${data[1]._id}`}>
             <div className="flex flex-col md:flex-row  gap-5 h-full p-3 px-0">
               <img
                 src={data[1].media}
@@ -66,7 +66,7 @@ const RecentPosts = () => {
           </HoverReadMore>
         </div>
         <div className="col-span-1 row-span-1">
-          <HoverReadMore link={""}>
+          <HoverReadMore link={`/blogs/${data[2]._id}`}>
             <div className="flex flex-col md:flex-row  gap-5 h-full p-3 px-0">
               <img
                 src={data[2].media}
@@ -95,7 +95,7 @@ const RecentPosts = () => {
           </HoverReadMore>
         </div>
       </div>
-      <HoverReadMore link={""}>
+      <HoverReadMore link={`/blogs/${data[3]._id}`}>
         <div className=" flex xs:flex-col gap-5 p-3 px-0">
           <img
             src={data[3].media}

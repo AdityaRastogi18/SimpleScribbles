@@ -1,4 +1,3 @@
-import Image from "next/image";
 import RecentPosts from "./Components/RecentPosts";
 import data from "./SampleBlogs.json";
 import AllPosts from "./Components/AllPosts";
