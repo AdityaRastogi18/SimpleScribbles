@@ -61,7 +61,7 @@
     "name": "Geektrust - Admin UI Challenge",
     "description": "A video sharing platform which will host videos for the world to watch. It also feature uploading new videos by using external video links (eg: Youtube) and displaying video fetched from the link.",
     "tags": [
-      "React.js", "Bootstrap"
+      "React.js", "Bootstrap", "Javascript"
     ],
     "media": ["/images/Geektrust-UI/Pannel-1.png", "/images/Geektrust-UI/Pannel-2.png", "/images/Geektrust-UI/Pannel-3.png"],
     "source_code_link": "https://github.com/AdityaRastogi18/GeekTrust-Admin-UI",
