@@ -1,18 +1,16 @@
 "use client";
-import { useParams } from "next/navigation";
 import data from "../../Projects.json";
 import tagColorPicker from "@/app/util/helperfunctions";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faArrowLeft,
-  faArrowRight,
   faArrowUpRightFromSquare,
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import { useState } from "react";
 
-const page = () => {
-  const { projectId } = useParams();
+const page = ({params}) => {
+  
+  const { projectId } = params;
   const project = data.find((project) => project._id == projectId);
 
   const [mainImg, setMainImg] = useState(project?.media[0]);

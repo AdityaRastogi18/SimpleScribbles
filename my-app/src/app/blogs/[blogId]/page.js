@@ -1,10 +1,9 @@
 "use client";
-import { useParams } from "next/navigation";
 import data from "../../SampleBlogs.json";
 import tagColorPicker from "@/app/util/helperfunctions";
 
-const page = () => {
-  const { blogId } = useParams();
+const page = ({params}) => {
+  const { blogId } = params;
   console.log(blogId);
   const article = data.find((post) => post._id == blogId);
   console.log("article", article);

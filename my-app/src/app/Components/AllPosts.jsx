@@ -7,7 +7,7 @@ const AllPosts = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-6 gap-y-10 mt-5">
       {data.map((post, index) => (
-        <div className="">
+        <div className="" key={post.title}>
           <HoverReadMore link={`/blogs/${[post._id]}`} icon={faEye} text={"Read More"}>
             <div className="flex xs:flex-col gap-5">
               <img

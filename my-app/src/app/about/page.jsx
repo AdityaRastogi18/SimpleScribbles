@@ -9,7 +9,7 @@ const page = () => {
         <div className="flex flex-col-reverse md:flex-row justify-between items-center ">
           <div className="flex flex-col gap-10">
             <div className="text-4xl lg:text-[4.5rem] font-bold">
-              Hi, I'm{" "}
+              Hi, I&apos;m{" "}
               <Link
                 href="https://3-d-portfolio-snowy.vercel.app"
                 target="_blank"
