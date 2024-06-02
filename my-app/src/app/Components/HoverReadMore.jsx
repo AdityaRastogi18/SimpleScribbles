@@ -2,7 +2,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBookOpenReader, faEye } from "@fortawesome/free-solid-svg-icons";
 
 const HoverReadMore = ({ children, link, icon, text }) => {
   const [hovered, setHovered] = useState(false);
