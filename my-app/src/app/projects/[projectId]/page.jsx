@@ -8,7 +8,7 @@ import {
 import Link from "next/link";
 import { useState } from "react";
 
-const page = ({params}) => {
+const Page = ({params}) => {
   
   const { projectId } = params;
   const project = data.find((project) => project._id == projectId);
@@ -105,4 +105,4 @@ const page = ({params}) => {
   );
 };
 
-export default page;
+export default Page;
