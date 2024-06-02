@@ -17,9 +17,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.className} dark:bg-regal-black dark:text-white mx-2 md:mx-[5rem] min-h-screen flex flex-col flex-grow-1`}
       >
-        <Navbar />
+        {/* <Navbar /> */}
         <main className="min-h-[75vh]">{children}</main>
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
