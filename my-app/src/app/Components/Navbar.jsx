@@ -18,7 +18,7 @@ const Navbar = () => {
       <nav
         className={`hidden md:flex flex-row justify-between items-center py-7 border-b-[2px] transition-all duration-500`}
       >
-        <Link href="/">Simple Scribbles</Link>
+        <Link className="font-extrabold" href="/">Simple Scribbles</Link>
         <ul className="flex flex-row justify-evenly items-center gap-5">
           <li className="hover:cursor-pointer">
             <input
