@@ -19,7 +19,6 @@ const Footer = () => {
         <Link href="https://github.com/AdityaRastogi18" target="_blank">
           <FontAwesomeIcon className="text-xl md:text-2xl hover:text-slate-500 dark:hover:text-teal-300" icon={faGithub} />
         </Link>
-        
         <Link href="https://www.linkedin.com/in/aditya-rastogi880/" target="_blank">
           <FontAwesomeIcon className="text-xl md:text-2xl hover:text-slate-500 dark:hover:text-teal-300" icon={faLinkedin} />
         </Link>
