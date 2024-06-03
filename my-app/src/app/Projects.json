@@ -56,10 +56,20 @@
     "live_link": "",
     "_id": "xboard"
   },
-  
+  {
+    "name": "Signature App",
+    "description": "A video sharing platform which will host videos for the world to watch. It also feature uploading new videos by using external video links (eg: Youtube) and displaying video fetched from the link.",
+    "tags": [
+      "Javascript", "HTML", "Canvas"
+    ],
+    "media": ["/images/SignatureApp/Signature-1.png"],
+    "source_code_link": "https://github.com/AdityaRastogi18/Signature-App",
+    "live_link": "",
+    "_id": "signature-app"
+  },
   {
     "name": "Geektrust - Admin UI Challenge",
-    "description": "A video sharing platform which will host videos for the world to watch. It also feature uploading new videos by using external video links (eg: Youtube) and displaying video fetched from the link.",
+    "description": "An admin panel ui made with React and Bootstrap with pagination and search functionality to add, delete or edit user details.",
     "tags": [
       "React.js", "Bootstrap", "Javascript"
     ],
