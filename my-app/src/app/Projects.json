@@ -1,5 +1,16 @@
 [
   {
+    "name": "3D Portfolio",
+    "description": "An immersive 3D portfolio built with Three.js and React, where I showcase my web development skills and creative projects. Discover a dynamic presentation of my professional journey and expertise.",
+    "tags": [
+      "React.js", "Three.js", "Tailwind CSS"
+    ],
+    "media": ["/images/Portfolio/Portfolio-1.png", "/images/Portfolio/Portfolio-2.png", "/images/Portfolio/Portfolio-3.png", "/images/Portfolio/Portfolio-4.png"],
+    "source_code_link": "https://github.com/AdityaRastogi18/3D-Portfolio",
+    "live_link": "https://3-d-portfolio-snowy.vercel.app/",
+    "_id": "portfolio"
+  },
+  {
     "name": "Qkart",
     "description": "A web-application that allows users to search, browse, and add products to cart from various providers, providing a convenient and efficient shopping experience.",
     "tags": [
@@ -22,17 +33,6 @@
     "source_code_link": "https://github.com/AdityaRastogi18/Tic-tac-toe",
     "live_link": "",
     "_id": "tic-tac-toe"
-  },
-  {
-    "name": "3D Portfolio",
-    "description": "An immersive 3D portfolio built with Three.js and React, where I showcase my web development skills and creative projects. Discover a dynamic presentation of my professional journey and expertise.",
-    "tags": [
-      "React.js", "Three.js", "Tailwind CSS"
-    ],
-    "media": ["/images/Portfolio/Portfolio-1.png", "/images/Portfolio/Portfolio-2.png", "/images/Portfolio/Portfolio-3.png", "/images/Portfolio/Portfolio-4.png"],
-    "source_code_link": "https://github.com/AdityaRastogi18/3D-Portfolio",
-    "live_link": "https://3-d-portfolio-snowy.vercel.app/",
-    "_id": "portfolio"
   },
   {
     "name": "Qtrip",
