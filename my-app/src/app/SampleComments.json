@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Alice Johnson",
+    "profilePic": "https://randomuser.me/api/portraits/women/1.jpg",
+    "comment": "This is an amazing post! Thanks for sharing.",
+    "replies": [
+      {
+        "name": "Bob Smith",
+        "profilePic": "https://randomuser.me/api/portraits/men/2.jpg",
+        "comment": "I agree with Alice. Great insights!",
+        "replies": []
+      }
+    ]
+  },
+  {
+    "name": "Charlie Brown",
+    "profilePic": "https://randomuser.me/api/portraits/men/3.jpg",
+    "comment": "I found this very helpful, thank you.",
+    "replies": [
+      {
+        "name": "Diana Prince",
+        "profilePic": "https://randomuser.me/api/portraits/women/4.jpg",
+        "comment": "Same here, this was very informative.",
+        "replies": []
+      }
+    ]
+  },
+  {
+    "name": "Eva Green",
+    "profilePic": "https://randomuser.me/api/portraits/women/5.jpg",
+    "comment": "Could you elaborate more on this topic?",
+    "replies": [
+      {
+        "name": "Frank Castle",
+        "profilePic": "https://randomuser.me/api/portraits/men/6.jpg",
+        "comment": "Yes, more details would be great!",
+        "replies": []
+      },
+      {
+        "name": "George Clooney",
+        "profilePic": "https://randomuser.me/api/portraits/men/7.jpg",
+        "comment": "I second that!",
+        "replies": []
+      }
+    ]
+  },
+  {
+    "name": "Hannah Baker",
+    "profilePic": "https://randomuser.me/api/portraits/women/8.jpg",
+    "comment": "I love the way you explained this.",
+    "replies": []
+  },
+  {
+    "name": "Ian Curtis",
+    "profilePic": "https://randomuser.me/api/portraits/men/9.jpg",
+    "comment": "What an insightful post!",
+    "replies": []
+  },
+  {
+    "name": "Julia Roberts",
+    "profilePic": "https://randomuser.me/api/portraits/women/10.jpg",
+    "comment": "Can you provide more examples?",
+    "replies": [
+      {
+        "name": "Kevin Spacey",
+        "profilePic": "https://randomuser.me/api/portraits/men/11.jpg",
+        "comment": "Yes, more examples would be helpful.",
+        "replies": []
+      }
+    ]
+  },
+  {
+    "name": "Liam Neeson",
+    "profilePic": "https://randomuser.me/api/portraits/men/12.jpg",
+    "comment": "This is exactly what I was looking for, thanks!",
+    "replies": []
+  },
+  {
+    "name": "Megan Fox",
+    "profilePic": "https://randomuser.me/api/portraits/women/13.jpg",
+    "comment": "Great article!",
+    "replies": []
+  },
+  {
+    "name": "Nathan Drake",
+    "profilePic": "https://randomuser.me/api/portraits/men/14.jpg",
+    "comment": "I learned a lot from this, thanks.",
+    "replies": [
+      {
+        "name": "Olivia Wilde",
+        "profilePic": "https://randomuser.me/api/portraits/women/15.jpg",
+        "comment": "Glad to hear that, Nathan!",
+        "replies": []
+      }
+    ]
+  },
+  {
+    "name": "Peter Parker",
+    "profilePic": "https://randomuser.me/api/portraits/men/16.jpg",
+    "comment": "Very informative post!",
+    "replies": []
+  },
+  {
+    "name": "Quincy Jones",
+    "profilePic": "https://randomuser.me/api/portraits/men/17.jpg",
+    "comment": "Thanks for the detailed post.",
+    "replies": []
+  },
+  {
+    "name": "Rachel Green",
+    "profilePic": "https://randomuser.me/api/portraits/women/18.jpg",
+    "comment": "This is very useful, thanks for sharing.",
+    "replies": []
+  },
+  {
+    "name": "Steve Rogers",
+    "profilePic": "https://randomuser.me/api/portraits/men/19.jpg",
+    "comment": "Great insights, keep it up!",
+    "replies": [
+      {
+        "name": "Tony Stark",
+        "profilePic": "https://randomuser.me/api/portraits/men/20.jpg",
+        "comment": "I agree with Steve, well done!",
+        "replies": [
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Uma Thurman",
+    "profilePic": "https://randomuser.me/api/portraits/women/21.jpg",
+    "comment": "I found this extremely helpful. I found this extremely helpful. I found this extremely helpful. I found this extremely helpful. I found this extremely helpful. I found this extremely helpful.",
+    "replies": []
+  },
+  {
+    "name": "Victor Hugo",
+    "profilePic": "https://randomuser.me/api/portraits/men/22.jpg",
+    "comment": "Thanks for the great content!",
+    "replies": []
+  },
+  {
+    "name": "Victor Hugo",
+    "profilePic": "https://randomuser.me/api/portraits/men/22.jpg",
+    "comment": "Thanks for the great content!",
+    "replies": []
+  }
+]

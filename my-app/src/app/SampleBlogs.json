@@ -1,7 +1,7 @@
 [
   {
     "_id": "a1f0",
-    "author": "Aditya Rastogi",
+    "author": "ChatGPT",
     "date": "2024-02-15",
     "title": "Understanding React Component Lifecycle",
     "tags": ["React.js", "JavaScript", "Frontend Development"],
@@ -10,7 +10,7 @@
   },
   {
     "_id": "b2d8",
-    "author": "Aditya Rastogi",
+    "author": "ChatGPT",
     "date": "2024-01-12",
     "title": "Getting Started with Next.js",
     "tags": ["Next.js", "React.js", "JavaScript"],
@@ -19,7 +19,7 @@
   },
   {
     "_id": "e0c7",
-    "author": "Aditya Rastogi",
+    "author": "ChatGPT",
     "date": "2024-01-17",
     "title": "10 Tips for Effective JavaScript Development",
     "tags": ["JavaScript", "Programming", "Best Practices"],
@@ -28,7 +28,7 @@
   },
   {
     "_id": "1a2b",
-    "author": "Aditya Rastogi",
+    "author": "ChatGPT",
     "date": "2024-05-18",
     "title": "Optimizing React Applications for Performance",
     "tags": ["React.js", "Performance Optimization"],
@@ -37,7 +37,7 @@
   },
   {
     "_id": "3c4d",
-    "author": "Aditya Rastogi",
+    "author": "ChatGPT",
     "date": "2024-05-01",
     "title": "Server-side Rendering with Next.js",
     "tags": ["Next.js", "React.js", "Server-side Rendering"],
@@ -46,7 +46,7 @@
   },
   {
     "_id": "5e6f",
-    "author": "Aditya Rastogi",
+    "author": "ChatGPT",
     "date": "2024-04-20",
     "title": "Managing State in React Applications",
     "tags": ["React.js", "State Management", "Frontend Development"],
@@ -55,7 +55,7 @@
   },
   {
     "_id": "7g8h",
-    "author": "Aditya Rastogi",
+    "author": "ChatGPT",
     "date": "2024-02-19",
     "title": "Testing React Components with Jest and Enzyme",
     "tags": ["React.js", "Testing", "Jest", "Enzyme"],
@@ -64,7 +64,7 @@
   },
   {
     "_id": "9i0j",
-    "author": "Aditya Rastogi",
+    "author": "ChatGPT",
     "date": "2024-04-27",
     "title": "Building Dynamic Routes with Next.js",
     "tags": ["Next.js", "React.js", "Routing"],
@@ -73,7 +73,7 @@
   },
   {
     "_id": "ab12",
-    "author": "Aditya Rastogi",
+    "author": "ChatGPT",
     "date": "2024-03-07",
     "title": "Optimizing JavaScript Code for Performance",
     "tags": ["JavaScript", "Performance Optimization", "Programming"],
@@ -82,7 +82,7 @@
   },
   {
     "_id": "cd34",
-    "author": "Aditya Rastogi",
+    "author": "ChatGPT",
     "date": "2024-03-13",
     "title": "Securing React Applications with Authentication",
     "tags": ["React.js", "Authentication", "Security"],

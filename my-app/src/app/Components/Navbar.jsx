@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`hidden md:flex flex-row justify-between items-center py-7 border-b-[2px] transition-all duration-500`}
+        className={`hidden md:flex flex-row justify-between items-center lg:py-7 border-b-[2px] transition-all duration-500`}
       >
         <Link className="font-extrabold" href="/">Simple Scribbles</Link>
         <ul className="flex flex-row justify-evenly items-center gap-5">
@@ -42,7 +42,7 @@ const Navbar = () => {
         </ul>
       </nav>
       <nav
-        className={`md:hidden flex flex-row justify-between py-7 border-b-[2px] transition-all duration-500 ${
+        className={`md:hidden flex flex-row justify-between my-4 pb-8 border-b-[2px] transition-all duration-500 ${
           toggle ? "h-screen" : "h-0"
         }`}
       >

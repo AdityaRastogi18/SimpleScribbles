@@ -65,15 +65,15 @@ const page = () => {
           Subscribe for more!
         </div>
         <div className="w-full lg:w-9/12">
-          <div class="relative mt-2 rounded-md shadow-sm ">
+          <div className="relative mt-2 rounded-md shadow-sm ">
             <input
               type="text"
               name="email"
               id="email"
-              class="block w-full rounded-md border border-black dark:border-0 py-1.5 pl-4 pr-20 text-gray-900 placeholder:text-gray-400  sm:text-sm sm:leading-10"
+              className="block w-full rounded-md border border-black dark:border-0 py-1.5 pl-4 pr-20 text-gray-900 placeholder:text-gray-400  sm:text-sm sm:leading-10"
               placeholder="@your_email"
             />
-            <div class="absolute inset-y-0 right-0 flex items-center z-2 rounded-md ">
+            <div className="absolute inset-y-0 right-0 flex items-center z-2 rounded-md ">
               <button className="text-black hover:text-white bg-slate-500 dark:bg-teal-300 w-full px-2 lg:p-3 lg:px-4 h-full rounded-md">
                 Subscribe
               </button>

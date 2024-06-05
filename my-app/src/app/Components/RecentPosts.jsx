@@ -10,7 +10,11 @@ const RecentPosts = () => {
     <>
       <div className="grid grid-rows-2 xl:grid-flow-col gap-5 mb-4">
         <div className="row-span-2 col-span-1">
-          <HoverReadMore link={`/blogs/${data[0]._id}`} icon={faEye} text={"Read More"}>
+          <HoverReadMore
+            link={`/blogs/${data[0]._id}`}
+            icon={faEye}
+            text={"Read More"}
+          >
             <div className="flex xs:flex-col xl:flex-col gap-5 p-3 px-0 h-full">
               <img
                 src={data[0].media}
@@ -18,8 +22,12 @@ const RecentPosts = () => {
                 className="w-full h-auto object-cover"
               />
               <div className="flex flex-col gap-4">
-                <p className="text-slate-500 dark:text-teal-600">{data[0].date}</p>
-                <h4 className="text-xl font-bold text-black dark:text-teal-300">{data[0].title}</h4>
+                <p className="text-slate-500 dark:text-teal-600">
+                  {data[0].date}
+                </p>
+                <h4 className="text-xl font-bold text-black dark:text-teal-300">
+                  {data[0].title}
+                </h4>
                 <p>{data[0].content}</p>
                 <div className="flex flex-row gap-5">
                   {data[0].tags.map((tag, index) => (
@@ -38,7 +46,11 @@ const RecentPosts = () => {
           </HoverReadMore>
         </div>
         <div className="col-span-1 row-span-1">
-          <HoverReadMore link={`/blogs/${data[1]._id}`} icon={faEye} text={"Read More"}>
+          <HoverReadMore
+            link={`/blogs/${data[1]._id}`}
+            icon={faEye}
+            text={"Read More"}
+          >
             <div className="flex flex-col md:flex-row  gap-5 h-full p-3 px-0">
               <img
                 src={data[1].media}
@@ -47,8 +59,12 @@ const RecentPosts = () => {
                 className="w-full md:w-[250px] object-cover"
               />
               <div className="flex flex-col gap-4">
-                <p className="text-slate-500 dark:text-teal-600">{data[1].date}</p>
-                <h4 className="text-xl font-bold text-black dark:text-teal-300">{data[1].title}</h4>
+                <p className="text-slate-500 dark:text-teal-600">
+                  {data[1].date}
+                </p>
+                <h4 className="text-xl font-bold text-black dark:text-teal-300">
+                  {data[1].title}
+                </h4>
                 <p className="line-clamp-4">{data[1].content}</p>
                 <div className="flex flex-row gap-5">
                   {data[1].tags.map((tag, index) => (
@@ -67,7 +83,11 @@ const RecentPosts = () => {
           </HoverReadMore>
         </div>
         <div className="col-span-1 row-span-1">
-          <HoverReadMore link={`/blogs/${data[2]._id}`} icon={faEye} text={"Read More"}>
+          <HoverReadMore
+            link={`/blogs/${data[2]._id}`}
+            icon={faEye}
+            text={"Read More"}
+          >
             <div className="flex flex-col md:flex-row  gap-5 h-full p-3 px-0">
               <img
                 src={data[2].media}
@@ -76,8 +96,12 @@ const RecentPosts = () => {
                 className="w-full md:w-[250px] object-cover"
               />
               <div className="flex flex-col gap-4">
-                <p className="text-slate-500 dark:text-teal-600">{data[2].date}</p>
-                <h4 className="text-xl font-bold text-black dark:text-teal-300">{data[2].title}</h4>
+                <p className="text-slate-500 dark:text-teal-600">
+                  {data[2].date}
+                </p>
+                <h4 className="text-xl font-bold text-black dark:text-teal-300">
+                  {data[2].title}
+                </h4>
                 <p className="line-clamp-4">{data[2].content}</p>
                 <div className="flex flex-row gap-5">
                   {data[2].tags.map((tag, index) => (
@@ -96,7 +120,11 @@ const RecentPosts = () => {
           </HoverReadMore>
         </div>
       </div>
-      <HoverReadMore link={`/blogs/${data[3]._id}`} icon={faEye} text={"Read More"}>
+      <HoverReadMore
+        link={`/blogs/${data[3]._id}`}
+        icon={faEye}
+        text={"Read More"}
+      >
         <div className=" flex xs:flex-col gap-5 p-3 px-0">
           <img
             src={data[3].media}
@@ -105,7 +133,9 @@ const RecentPosts = () => {
           />
           <div className="flex flex-col gap-4">
             <p className="text-slate-500 dark:text-teal-600">{data[3].date}</p>
-            <h4 className="text-xl font-bold text-black dark:text-teal-300">{data[3].title}</h4>
+            <h4 className="text-xl font-bold text-black dark:text-teal-300">
+              {data[3].title}
+            </h4>
             <p>{data[3].content}</p>
             <div className="flex flex-row gap-5">
               {data[3].tags.map((tag, index) => (
