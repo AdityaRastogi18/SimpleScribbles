@@ -1,4 +1,4 @@
-export default function tagColorPicker(val) {
+export function tagColorPicker(val) {
   switch (val) {
     case "React.js":
       return { fontColor: "text-[#3538CD]", bgColor: "bg-[#EEF4FF]" };
@@ -17,4 +17,12 @@ export default function tagColorPicker(val) {
     default:
       return { fontColor: "text-[#363F72]", bgColor: "bg-[#F8F9FC]" };
   }
+}
+
+export function sortDates(arr, sortOrder) {
+  if (sortOrder === "asc")
+    return arr.sort((a, b) => new Date(a?.date) - new Date(b?.date));
+  else if (sortOrder === "dsc")
+    return arr.sort((a, b) => new Date(b?.date) - new Date(a?.date));
+  else return arr;
 }

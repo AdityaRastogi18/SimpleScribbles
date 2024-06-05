@@ -4,7 +4,7 @@ import { ReactTyped } from "react-typed";
 
 const page = () => {
   return (
-    <div className="h-[80vh] md:h-[75vh] px-8 overflow-y-scroll snap-y snap-mandatory">
+    <div className="h-[77.5vh] md:h-[75vh] px-8 overflow-y-scroll snap-y snap-mandatory">
       <section className="h-full flex flex-col-reverse md:flex-row justify-center md:justify-between items-center snap-start">
         <div className="flex flex-col gap-5 md:gap-10">
           <div className="text-3xl lg:text-[4.5rem] font-bold">

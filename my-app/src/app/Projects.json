@@ -2,80 +2,95 @@
   {
     "name": "3D Portfolio",
     "description": "An immersive 3D portfolio built with Three.js and React, where I showcase my web development skills and creative projects. Discover a dynamic presentation of my professional journey and expertise.",
-    "tags": [
-      "React.js", "Three.js", "Tailwind CSS"
+    "tags": ["React.js", "Three.js", "Tailwind CSS"],
+    "media": [
+      "/images/Portfolio/Portfolio-1.png",
+      "/images/Portfolio/Portfolio-2.png",
+      "/images/Portfolio/Portfolio-3.png",
+      "/images/Portfolio/Portfolio-4.png"
     ],
-    "media": ["/images/Portfolio/Portfolio-1.png", "/images/Portfolio/Portfolio-2.png", "/images/Portfolio/Portfolio-3.png", "/images/Portfolio/Portfolio-4.png"],
     "source_code_link": "https://github.com/AdityaRastogi18/3D-Portfolio",
     "live_link": "https://3-d-portfolio-snowy.vercel.app/",
-    "_id": "portfolio"
+    "_id": "portfolio",
+    "date": "2024-06-01"
   },
   {
     "name": "Qkart",
     "description": "A web-application that allows users to search, browse, and add products to cart from various providers, providing a convenient and efficient shopping experience.",
-    "tags": [
-        "React.js",
-        "Mongodb",
-        "Bootstrap"
+    "tags": ["React.js", "Mongodb", "Bootstrap"],
+    "media": [
+      "/images/Qkart/Qkart-1.png",
+      "/images/Qkart/Qkart-2.png",
+      "/images/Qkart/Qkart-3.png",
+      "/images/Qkart/Qkart-4.png"
     ],
-    "media": ["/images/Qkart/Qkart-1.png", "/images/Qkart/Qkart-2.png", "/images/Qkart/Qkart-3.png", "/images/Qkart/Qkart-4.png"],
     "source_code_link": "https://github.com/AdityaRastogi18/Qkart-Frontend/tree/main/shubhrastogi14-ME_QKART_FRONTEND_V2-master",
     "live_link": "https://qkart-ar.netlify.app/",
-    "_id": "qkart"
+    "_id": "qkart",
+    "date": "2023-04-29"
   },
   {
     "name": "Tic Tac Toe Game",
     "description": "A Tic Tac Toe game designed for simple, pass-and-play fun. Users can seamlessly take turns with friends, enjoying a classic game of strategy in a straightforward and accessible format.",
-    "tags": [
-      "HTML", "CSS", "Javascript"
-    ],
+    "tags": ["HTML", "CSS", "Javascript"],
     "media": ["/images/tic-tac-toe.png"],
     "source_code_link": "https://github.com/AdityaRastogi18/Tic-tac-toe",
     "live_link": "",
-    "_id": "tic-tac-toe"
+    "_id": "tic-tac-toe",
+    "date": "2024-05-03"
   },
   {
     "name": "Qtrip",
     "description": "A travel website where users can browse the various Adventures on offer, based on their places of interest and book an Adventure with us.",
-    "tags": [
-      "HTML", "CSS", "Bootstrap", "Javascript"
+    "tags": ["HTML", "CSS", "Bootstrap", "Javascript"],
+    "media": [
+      "/images/Qtrip/Qtrip-1.png",
+      "/images/Qtrip/Qtrip-2.png",
+      "/images/Qtrip/Qtrip-3.png",
+      "/images/Qtrip/Qtrip-4.png",
+      "/images/Qtrip/Qtrip-5.png"
     ],
-    "media": ["/images/Qtrip/Qtrip-1.png", "/images/Qtrip/Qtrip-2.png", "/images/Qtrip/Qtrip-3.png", "/images/Qtrip/Qtrip-4.png", "/images/Qtrip/Qtrip-5.png"],
     "source_code_link": "https://github.com/AdityaRastogi18/QtripDynamic",
     "live_link": "",
-    "_id": "qtrip"
+    "_id": "qtrip",
+    "date": "2023-02-03"
   },
   {
     "name": "Xboard",
     "description": "A News Feed website that will feature the latest news for select topics, from Flipboard a News Feed website aggregator which aggregates news content from different websites in one place.",
-    "tags": [
-      "HTML", "Bootstrap", "Javascript", "RSS Feed"
+    "tags": ["HTML", "Bootstrap", "Javascript", "RSS Feed"],
+    "media": [
+      "/images/Xboard/Xboard-1.png",
+      "/images/Xboard/Xboard-2.png",
+      "/images/Xboard/Xboard-3.png"
     ],
-    "media": ["/images/Xboard/Xboard-1.png", "/images/Xboard/Xboard-2.png", "/images/Xboard/Xboard-3.png"],
     "source_code_link": "https://github.com/AdityaRastogi18/Xboard",
     "live_link": "",
-    "_id": "xboard"
+    "_id": "xboard",
+    "date": "2023-03-28"
   },
   {
     "name": "Signature App",
     "description": "A video sharing platform which will host videos for the world to watch. It also feature uploading new videos by using external video links (eg: Youtube) and displaying video fetched from the link.",
-    "tags": [
-      "Javascript", "HTML", "Canvas"
-    ],
+    "tags": ["Javascript", "HTML", "Canvas"],
     "media": ["/images/SignatureApp/Signature-1.png"],
     "source_code_link": "https://github.com/AdityaRastogi18/Signature-App",
-    "live_link": "",
-    "_id": "signature-app"
+    "live_link": "2024-05-02",
+    "_id": "signature-app",
+    "date": "2024-03-25"
   },
   {
     "name": "Geektrust - Admin UI Challenge",
     "description": "An admin panel ui made with React and Bootstrap with pagination and search functionality to add, delete or edit user details.",
-    "tags": [
-      "React.js", "Bootstrap", "Javascript"
+    "tags": ["React.js", "Bootstrap", "Javascript"],
+    "media": [
+      "/images/Geektrust-UI/Pannel-1.png",
+      "/images/Geektrust-UI/Pannel-2.png",
+      "/images/Geektrust-UI/Pannel-3.png"
     ],
-    "media": ["/images/Geektrust-UI/Pannel-1.png", "/images/Geektrust-UI/Pannel-2.png", "/images/Geektrust-UI/Pannel-3.png"],
     "source_code_link": "https://github.com/AdityaRastogi18/GeekTrust-Admin-UI",
     "live_link": "",
-    "_id": "geektrust"
+    "_id": "geektrust",
+    "date": "2022-11-20"
   }
 ]

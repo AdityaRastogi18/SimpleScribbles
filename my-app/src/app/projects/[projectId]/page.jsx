@@ -1,6 +1,6 @@
 "use client";
 import data from "../../Projects.json";
-import tagColorPicker from "@/app/util/helperfunctions";
+import {tagColorPicker} from "@/app/util/helperfunctions";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowUpRightFromSquare,

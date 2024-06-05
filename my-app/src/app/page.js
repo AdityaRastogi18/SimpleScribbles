@@ -14,7 +14,7 @@ export default function Home() {
       </section>
       <section className="">
         <h3 className="mt-3 text-lg md:mt-[4.5rem] md:text-[25px]">All Blog Posts</h3>
-        <AllPosts />
+        <AllPosts data={data}/>
       </section>
     </main>
   );

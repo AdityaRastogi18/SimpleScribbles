@@ -2,7 +2,7 @@
 
 import HoverReadMore from "./HoverReadMore";
 import data from "../SampleBlogs.json";
-import tagColorPicker from "../util/helperfunctions";
+import {tagColorPicker} from "../util/helperfunctions";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 
 const RecentPosts = () => {

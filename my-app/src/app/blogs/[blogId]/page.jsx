@@ -1,7 +1,7 @@
 "use client";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import data from "../../SampleBlogs.json";
-import tagColorPicker from "@/app/util/helperfunctions";
+import { tagColorPicker } from "@/app/util/helperfunctions";
 import {
   faMessage,
   faPaperPlane,
@@ -15,11 +15,18 @@ import Comments from "../../SampleComments.json";
 const Page = ({ params }) => {
   const { blogId } = params;
 
+  // useEffect(() => {
+  //   const likedPost = JSON.parse(window.localStorage.getItem('likedPost')) || [];
+  //   setLikedPost(likedPost)
+  // }, [])
+
   const inputRef = useRef(null);
   const article = data.find((post) => post._id == blogId);
 
   const [commentVal, setCommentVal] = useState("");
   const [replyingTo, setReplyingTo] = useState("");
+  // const [likedPost, setLikedPost] = useState([]);
+  const [liked, setLiked] = useState(false);
 
   const handleComment = (e) => {
     setCommentVal(e.target.value);
@@ -31,6 +38,16 @@ const Page = ({ params }) => {
       inputRef.current.focus();
     }
   }, [replyingTo]);
+
+  const handleLike = () => {
+    setLiked(!liked);
+    // if(!!likedPost.find((id) => id == blogId)){
+    //   console.log(true)
+    //   localStorage.setItem(likedPost, JSON.stringify(likedPost))
+    // } else {
+    //   likedPost.splice(likedPost.indexOf(likedPost.find((id) => id == blogId)), 1)
+    // }
+  }
 
   return (
     <main className="mt-3 pt-5">
@@ -65,9 +82,9 @@ const Page = ({ params }) => {
         </div>
       </div>
       <section className="flex flex-row gap-4 lg:gap-8 py-5">
-        <button>
-          <span className="dark:hover:text-teal-300 text-xl lg:text-2xl">
-            7 <FontAwesomeIcon icon={faThumbsUp} />
+        <button onClick={handleLike}>
+          <span className={`dark:hover:text-teal-300 text-xl lg:text-2xl ${liked && "dark:text-teal-300"}`}>
+            {liked ? 8 : 7} <FontAwesomeIcon icon={faThumbsUp} />
           </span>
         </button>
 
@@ -88,7 +105,7 @@ const Page = ({ params }) => {
                 type="text"
                 id="comment-input"
                 ref={inputRef}
-                className="block p-3 w-full rounded-md border border-black dark:border-0 py-1.5 pl-4 pr-20 text-gray-900 placeholder:text-gray-400 h-[45px] sm:text-sm sm:leading-10"
+                className={`block p-3 w-full rounded-md border border-black dark:border-0 py-1.5 pl-4 pr-20 text-gray-900 placeholder:text-gray-400 h-[45px] sm:text-sm sm:leading-10`}
                 placeholder="@Comment"
                 value={commentVal}
                 onChange={handleComment}
