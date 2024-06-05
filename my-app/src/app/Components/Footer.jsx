@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bottom-0 mt-7 py-6 border-t flex flex-col-reverse md:flex-row gap-4 justify-between items-center">
+    <footer className="bottom-0 mt-2 md:mt-7 py-3 md:py-6 border-t flex flex-col-reverse md:flex-row gap-4 justify-between items-center">
       <span className="flex items-center gap-1">
         <FontAwesomeIcon className="text-lg" icon={faCopyright} /> Simple
         Scribbles. All rights are reserved.

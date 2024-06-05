@@ -36,7 +36,7 @@ const Drawer = ({ headerTitle, toggleBtn, children }) => {
         }`}
       >
         <header
-          className="p-3 border-b flex items-center justify-between items-center h-[7vh]"
+          className="hidden lg:flex p-3 border-b justify-between items-center lg:h-[7vh]"
         >
           <button aria-label="Close comments" onClick={toggleSlider}>
             <FontAwesomeIcon
@@ -46,7 +46,7 @@ const Drawer = ({ headerTitle, toggleBtn, children }) => {
           </button>
           <span className="w-full text-center">{headerTitle}</span>
         </header>
-        <div className="flex-1 h-[93vh] overflow-scroll">{children}</div>
+        <div className="flex-1 h-full lg:h-[93vh] overflow-scroll">{children}</div>
       </div>
     </div>
   );
