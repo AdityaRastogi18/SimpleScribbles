@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`hidden md:flex flex-row justify-between items-center lg:py-7 border-b-[2px] transition-all duration-500`}
+        className={`hidden md:flex flex-row justify-between items-center md:py-7 border-b-[2px] transition-all duration-500`}
       >
         <Link className="font-extrabold" href="/">Simple Scribbles</Link>
         <ul className="flex flex-row justify-evenly items-center gap-5">
