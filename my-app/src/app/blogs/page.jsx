@@ -1,10 +1,10 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import AllPosts from "../Components/AllPosts";
 import data from "../SampleBlogs.json";
 import { sortDates } from "../util/helperfunctions";
 
-const page = () => {
+const Page = () => {
   const [blogData, setBlogData] = useState(data);
 
   const handleSort = (e) => {
@@ -37,4 +37,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
