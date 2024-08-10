@@ -15,9 +15,42 @@
     "date": "2024-06-01"
   },
   {
+    "name": "Tailwebs Teacher's Portal",
+    "description": "A dynamic student management system with features including a login screen, dynamic search, student subject management, and secure authentication using Passport.js JWT service.",
+    "tags": ["React.js", "Node.js", "MongoDB", "Express.js"],
+    "media": [
+      "/images/Tailwebs/Tailwebs-1.png",
+      "/images/Tailwebs/Tailwebs-2.png",
+      "/images/Tailwebs/Tailwebs-3.png",
+      "/images/Tailwebs/Tailwebs-4.png",
+      "/images/Tailwebs/Tailwebs-5.png",
+      "/images/Tailwebs/Tailwebs-6.png",
+      "/images/Tailwebs/Tailwebs-7.png",
+      "/images/Tailwebs/Tailwebs-8.png"
+    ],
+    "source_code_link": "https://github.com/AdityaRastogi18/tailwebs-fronted",
+    "live_link": "https://tailwebs-fronted.vercel.app/login",
+    "_id": "tailwebs-teacher-portal",
+    "date": "2024-08-06"
+  },
+  {
+    "name": "Url Shortener",
+    "description": "A URL shortener with a table displaying short and original links, CRUD functionality, and an input for adding new links, built with Express, MongoDB, and EJS for SSR.",
+    "tags": ["Node.js", "MongoDB", "Express.js", "EJS"],
+    "media": [
+      "/images/Url-Shortener/Url-Shortener-1.png",
+      "/images/Url-Shortener/Url-Shortener-2.png",
+      "/images/Url-Shortener/Url-Shortener-3.png"
+    ],
+    "source_code_link": "https://github.com/AdityaRastogi18/url-shortener",
+    "live_link": "",
+    "_id": "url-shortener",
+    "date": "2024-07-20"
+  },
+  {
     "name": "Qkart",
     "description": "A web-application that allows users to search, browse, and add products to cart from various providers, providing a convenient and efficient shopping experience.",
-    "tags": ["React.js", "Mongodb", "Bootstrap"],
+    "tags": ["React.js", "MongoDB", "Bootstrap"],
     "media": [
       "/images/Qkart/Qkart-1.png",
       "/images/Qkart/Qkart-2.png",
