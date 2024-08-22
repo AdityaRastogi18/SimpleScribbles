@@ -2,11 +2,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import data from "../../SampleBlogs.json";
 import { tagColorPicker } from "@/app/util/helperfunctions";
-import {
-  faMessage,
-  faPaperPlane,
-  faThumbsUp,
-} from "@fortawesome/free-solid-svg-icons";
+import { faMessage, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import Drawer from "@/app/Components/Drawer";
 import { useEffect, useRef, useState } from "react";
 import CommentList from "@/app/Components/CommentList";
