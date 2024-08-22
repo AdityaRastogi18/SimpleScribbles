@@ -59,7 +59,7 @@ const Page = ({ params }) => {
               <p className="text-sm text-slate-400">{article?.author}</p>
             </section>
           </div>
-          <ShareButton url={`http://localhost:3000/blogs/${blogId}`} />
+          <ShareButton url={`${process.env.NEXT_PUBLIC_URL}/blogs/${blogId}`} />
         </section>
         <p>{article?.content}</p>
         <div className="flex flex-row gap-5 mb-4">
