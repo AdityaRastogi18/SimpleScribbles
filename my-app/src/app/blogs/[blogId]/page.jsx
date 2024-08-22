@@ -41,29 +41,29 @@ const Page = ({ params }) => {
   return (
     <main className="mt-3 pt-5">
       <img
-        src={article.media}
-        alt={article.title}
+        src={article?.media}
+        alt={article?.title}
         className="w-full h-auto md:h-[400px] object-cover"
       />
       <div className="flex flex-col gap-6 pt-5">
         <section className="flex items-center justify-between">
           <div className="md:w-2/3">
             <h2 className="text-3xl pb-4 text-black dark:text-teal-300">
-              {article.title}
+              {article?.title}
             </h2>
             <section className="flex gap-4 items-center">
               <p className="text-sm text-slate-500 dark:text-teal-600">
-                {article.date}
+                {article?.date}
               </p>
               &#x2022;
-              <p className="text-sm text-slate-400">{article.author}</p>
+              <p className="text-sm text-slate-400">{article?.author}</p>
             </section>
           </div>
           <ShareButton url={`http://localhost:3000/blogs/${blogId}`} />
         </section>
-        <p>{article.content}</p>
+        <p>{article?.content}</p>
         <div className="flex flex-row gap-5 mb-4">
-          {article.tags.map((tag, index) => (
+          {article?.tags.map((tag, index) => (
             <div
               key={tag + index}
               className={`rounded-full flex items-center text-center ${

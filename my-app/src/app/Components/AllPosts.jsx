@@ -5,6 +5,7 @@ import { tagColorPicker } from "../util/helperfunctions";
 import HoverReadMore from "./HoverReadMore";
 
 const AllPosts = ({ data }) => {
+  console.log("dataa");
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-6 gap-y-10 mt-5">
       {data?.map((post, index) => (

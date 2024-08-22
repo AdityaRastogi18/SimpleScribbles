@@ -7,6 +7,9 @@ import { sortDates } from "../util/helperfunctions";
 const Page = () => {
   const [blogData, setBlogData] = useState(data);
 
+  // alert("data s");
+  console.log("datas", data);
+
   const handleSort = (e) => {
     const newBlogData = sortDates(
       data,
@@ -32,6 +35,7 @@ const Page = () => {
           </select>
         </span>
       </section>
+
       <AllPosts data={blogData} />
     </>
   );
